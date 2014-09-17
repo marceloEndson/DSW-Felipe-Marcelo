@@ -189,7 +189,7 @@ BEGIN
 	SET senha = novaSenha
 	WHERE id = idUsuario;
 END //
-DELIMITER 
+DELIMITER ;
 
 /*
 DROP PROCEDURE IF EXISTS DescontarPontos;
